@@ -62,7 +62,8 @@
 * =***linux虚拟目录结构***：
 分别回想以下目录所涉及内容:
 
-    | 1 | 2 | 3 | 4 | 5 | 6 |          |---|------|-----|------|----|---| | / | /    bin | /etc | /home | /dev | /boot | | /lib | /media | /mnt | /usr | /tmp | /var | | /sys |/root | /proc | /run | /sbin | /srv | | /libname | /etc/opt | /var/opt | /opt | | |
+| 1 | 2 | 3 | 4 | 5 | 6 |          |---|------|-----|------|----|---| | / | /    bin | /etc | /home | /dev | /boot | | /lib | /media | /mnt | /usr | /tmp | /var | | /sys |/root | /proc | /run | /sbin | /srv | | /libname | /etc/opt | /var/opt | /opt | /usr/bin| /usr/local/bin|
+* 区分/bin /usr/bin /usr/local/bin
 * 什么是文件系统层级结构(FHS)?
 * 相对路径和绝对路径？
 * 目录内部用于表示相对路径的两个特殊目录是什么？
